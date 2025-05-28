@@ -1,5 +1,5 @@
 
-import { Instagram, Twitter, Github, Linkedin, Mail, Globe, Youtube, Music, Camera } from 'lucide-react';
+import { Instagram, Github, Linkedin, Globe,  Camera } from 'lucide-react';
 
 export const linksData = [
     {
@@ -28,21 +28,20 @@ export const linksData = [
     },
     {
         id: 4,
+        title: "Dribbble Portfolio",
+        description: "Explore my design work and projects",
+        url: "htttps://dribbble.com/sitohari",
+        icon: Camera,
+        gradient: "from-fuchsia-600 to-pink-700"
+    },
+    {
+        id: 5,
         title: "Instagram",
         description: "Follow my daily adventures and creative content",
         url: "https://instagram.com/toharimaolana",
         icon: Instagram,
         gradient: "from-purple-600 via-pink-600 to-red-500"
     },
-    
-    {
-        id: 5,
-        title: "Contact Me",
-        description: "Get in touch for collaborations",
-        url: "mailto:devsitohari@email.com",
-        icon: Mail,
-        gradient: "from-blue-500 to-violet-900"
-    }
 ];
 
 export const profileData = {
