@@ -54,7 +54,7 @@ export const siteConfig = {
   title: "My Linktree",
   description: "All my important links in one place",
   theme: {
-    primaryGradient: "from-slate-900 via-purple-900 to-slate-900",
+    primaryGradient: "from-violet-900 to-slate-900",
     accentColor: "purple"
   }
 };
